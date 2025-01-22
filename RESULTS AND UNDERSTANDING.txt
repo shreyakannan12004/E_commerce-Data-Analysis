@@ -1,0 +1,25 @@
+#Results and Understandings:
+The analysis and transformations provided actionable insights into customer behavior and purchasing patterns. The findings can be used to optimize marketing strategies and improve product recommendations.
+
+AGE AND INCOME:
+Age and Annual Income significantly influence purchasing behavior. Customers in the age group of 35-45 with a higher annual income were found to spend more, especially on high-ticket items such as electronics and home appliances.
+Younger customers, especially those in the age range of 24-30, tend to make smaller but more frequent purchases, focusing on lower-priced categories such as fashion and accessories.
+
+TIME-ON SITE ENGAGEMENT:
+The Time on Site is positively correlated with the likelihood of making a purchase. Customers who spend more time browsing the platform tend to engage with more products and are more likely to make a purchase.
+
+CUSTOMER REVIEWS AND SATISFACTION:
+Customers who wrote product reviews were more likely to make repeat purchases, and positive reviews are correlated with higher sales in specific categories.
+Leveraging customer reviews for marketing and improving product offerings based on feedback could enhance customer trust and drive more sales.
+
+Potential Strategies:
+Implement targeted marketing campaigns based on age, income level, and geographical location to appeal to different customer segments.
+Personalized offers for tech enthusiasts in City D or fashion lovers in City E could drive more tailored and effective marketing efforts.
+
+Improving User Engagement:
+
+Enhancing the user interface to encourage longer browsing times and ease of navigation could lead to more sales, especially among non-subscribers.
+Personalized recommendations based on browsing and purchase history could further increase engagement and conversions.
+
+CONCLUSION:
+The analysis of the e-commerce dataset shows that customer behavior is influenced by factors such as age, income, and location. Customers with higher annual incomes tend to make more frequent and higher-value purchases. Location-specific trends also highlight the importance of regional preferences. Improving customer engagement, utilizing product reviews for better recommendations, and personalizing marketing efforts can help increase revenue and customer loyalty for the platform.

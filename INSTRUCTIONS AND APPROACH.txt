@@ -1,0 +1,55 @@
+INSTRUCTIONS AND APPROACH:
+The goal is to gain insights into how customers interact with the platform, their spending habits, and their engagement with the products. The dataset provides various attributes such as demographics (age, gender, location), purchasing history, browsing behavior, and product reviews. The analysis involves data transformation, cleaning, aggregation, and visualization to identify trends and patterns.
+
+Technologies Used
+Python: For data analysis, transformation, and modeling.
+Pandas: For data manipulation and cleaning.
+Databricks Notebook: For interactive analysis.
+Databricks: Used for running notebooks in a cloud environment, managing the dataset, and performing data transformations.
+SQL: For querying the dataset when required (e.g., aggregations and filtering).
+
+Requirements
+Databricks Community Edition Account: Required for running notebooks and uploading the dataset.
+Python 3.x: For running scripts and libraries.
+Libraries:
+pandas
+
+Cloud Storage(DBFS)/AZURE Datafactory: For storing the dataset on Databricks or another cloud storage solution.
+
+Setup & Installation
+Create a Databricks account: Sign up for the Databricks Community Edition account if you haven't already.
+Upload the Dataset: Upload the e-commerce dataset to Databricks for analysis.
+Go to the Databricks Workspace and select Data from the left menu.
+Click Add Data and upload the dataset from your local storage.
+
+Approach
+Loading the Data:
+
+I loaded the dataset into Databricks using the Pandas library.
+The dataset is in CSV format, and I used the pd.read_csv() function to read the data into a DataFrame.
+
+Data Cleaning:
+
+Handling Missing Values: I identified missing values in the dataset and filled or removed them accordingly.
+For numerical columns (like Age, Annual_Income), I used the mean or median for imputation.
+For categorical columns (like Gender or Location), I used the most frequent value for imputation or dropped rows where necessary
+
+Removing Duplicates: Checked and removed any duplicate entries to ensure clean data
+
+Data Transformation:
+
+I performed various transformations, such as aggregating data at a customer level (e.g., total spend, average spending per category).
+Created new columns where necessary (e.g., calculating the Monthly_Income by dividing Annual_Income by 12).
+I also used SQL queries to aggregate and filter the data as needed.
+
+I performed exploratory data analysis (EDA) using Matplotlib and Seaborn for data visualization.
+Demographic Analysis: Visualized the distribution of customers by Age, Gender, and Location.
+Purchasing Behavior: Plotted product categories by frequency of purchases.
+Correlation Analysis: Analyzed correlations between numerical features (e.g., Age, Annual_Income, and Monthly_Income).
+
+Insights & Findings:
+
+Based on the visualizations and analysis, I identified key trends:
+Age and Spending Patterns: Younger customers were more inclined to purchase lower-priced tech gadgets, while older customers spent more on home goods.
+Income and Spending: Higher-income customers made larger purchases and had more frequent interactions with the site.
+Product Category Trends: Certain product categories (e.g., electronics) were more frequently browsed but not always purchased, indicating a potential for targeted promotions.
